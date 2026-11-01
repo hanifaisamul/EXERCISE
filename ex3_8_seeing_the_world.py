@@ -1,0 +1,15 @@
+# 3-8. Seeing the World
+places = ["Tokyo", "Paris", "Kyoto", "Reykjavik", "New York"]
+print("Original:", places)
+print("Sorted():", sorted(places))
+print("Original again:", places)
+print("Sorted(reverse=True):", sorted(places, reverse=True))
+print("Original again:", places)
+places.reverse()
+print("Reversed:", places)
+places.reverse()
+print("Reversed back:", places)
+places.sort()
+print("Sorted permanently:", places)
+places.sort(reverse=True)
+print("Sort reverse permanently:", places)

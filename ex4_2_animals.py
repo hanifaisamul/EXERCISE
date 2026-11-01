@@ -1,0 +1,5 @@
+# 4-2. Animals
+animals = ["Kucing", "Anjing", "Kelinci"]
+for animal in animals:
+    print(f"{animal} akan menjadi hewan peliharaan yang hebat.")
+print("Semua hewan ini sangat cocok dijadikan hewan peliharaan!")
